@@ -1,3 +1,7 @@
+# Wizards & Web Scraping (with rvest and RSelenium)
+**Web scraping, archiving, and search retrieval of monsters scraped from DND Beyond**
+
+
 I love Dungeons & Dragons. I'm also a data-loving Data Scientist. These two worlds were inevitably bound to collide .
 
 For those who have never heard of the game, Dungeons and Dragons (D&D) is a fantasy tabletop role-playing game that was first published in 1974, and has a tremendous amount of data associated with the game. Essentially, the characters band together to form a party and undertake adventures, ranging from finding a villager's missing prize-winning piglet to stopping the revival of an ancient Great Old One from the [Far Realm](https://forgottenrealms.fandom.com/wiki/Far_Realm) that will bring about unspeakable horrors on the land. A Dungeon Master serves as the game's referee and storyteller, creating and maintaining the very world in which the adventures occur.
