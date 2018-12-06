@@ -319,7 +319,7 @@ Add a little [`knitr::kable & kableExtra`](https://cran.r-project.org/web/packag
         simplify() %>%
         str_replace("Lair Actions", "<b>Lair Actions</b>") %>%
         str_replace("Regional Effects", "<b>Regional Effects</b>") %>%
-        kable(col.names=c("Description"), escape = F, booktabs = T, format="html") %>%
+        kable(col.names=c("Extended Description"), escape = F, booktabs = T, format="html") %>%
         kable_styling('striped', full_width = F)
 
       print(monster_summary)
@@ -485,7 +485,7 @@ find_monster("Adult Black Dragon")
 <table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
-   <th style="text-align:left;"> Description </th>
+   <th style="text-align:left;"> Extended Description </th>
   </tr>
  </thead>
 <tbody>

@@ -179,7 +179,7 @@ find_monster <- function(monster){
     simplify() %>%
     str_replace("Lair Actions", "<b>Lair Actions</b>") %>%
     str_replace("Regional Effects", "<b>Regional Effects</b>") %>%
-    kable(col.names=c("Description"), escape = F, booktabs = T, format="html") %>%
+    kable(col.names=c("Extended Description"), escape = F, booktabs = T, format="html") %>%
     kable_styling('striped', full_width = F)
   
   print(monster_summary)
